@@ -7,7 +7,7 @@ def strcat(string):
     return newstr
 
 def listcat(string):
-    return ''.join([char for char in string])
+    return ''.join(char for char in string)
 
 def test(fn, times, *args):
     start = time.time()
